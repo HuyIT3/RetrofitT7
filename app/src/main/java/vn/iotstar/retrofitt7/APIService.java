@@ -9,5 +9,4 @@ import retrofit2.Call;
 public interface APIService {
     @GET("categories.php")
     Call<List<Category>> getCategories();
-
 }
